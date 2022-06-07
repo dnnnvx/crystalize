@@ -43,6 +43,12 @@
 
 .date {
   margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.req {
+  margin: 8px 0 0 0;
   font-size: 12px;
-  opacity: 0.8;  
+  opacity: 0.6;
 }

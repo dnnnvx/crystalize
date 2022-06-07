@@ -32,6 +32,7 @@ function App() {
           <p className="title">{data.name}</p>
           <p className="price">current price:<br /><span>${data.current_price}</span></p>
           <p className="date">last update: {new Date(data.last_updated).toLocaleString()}</p>
+          <p className="req">Obtained from CoinGecko API v3</p>
         </div>
       ) : (
         <p>...</p>
