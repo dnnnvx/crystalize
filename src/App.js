@@ -1,15 +1,15 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 
 function App() {
-  const [state, setState] = useState('idle')
-  const [data, setData] = useState()
+  const [state, setState] = React.useState('idle')
+  const [data, setData] = React.useState()
 
-  useEffect(() => {
+  React.useEffect(() => {
     setState('loading')
     window.fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=ethereum', {}).then(res => {
       if (res.ok) {
-        res.json().then(d => setData(d?.length ? d[0] : undefined))
+        res.json().then(d => setData(d && d.length ? d[0] : undefined))
         setState('idle')
       } else {
         setState('error')
