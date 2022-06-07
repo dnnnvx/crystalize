@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crystalize/static/css/main.387d36fa.css",
+    "main.js": "/crystalize/static/js/main.122eb60d.js",
+    "static/js/787.d5b6ebd1.chunk.js": "/crystalize/static/js/787.d5b6ebd1.chunk.js",
+    "index.html": "/crystalize/index.html",
+    "main.387d36fa.css.map": "/crystalize/static/css/main.387d36fa.css.map",
+    "main.122eb60d.js.map": "/crystalize/static/js/main.122eb60d.js.map",
+    "787.d5b6ebd1.chunk.js.map": "/crystalize/static/js/787.d5b6ebd1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.387d36fa.css",
+    "static/js/main.122eb60d.js"
+  ]
+}
